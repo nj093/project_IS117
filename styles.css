@@ -1,0 +1,196 @@
+
+/*Developer: Naman Jain, IS117-011, Summer 2023-> */
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  
+.logo{
+    color: red;
+    text-shadow: 2px 2px #ffd900;
+}
+
+div h1 a {
+    text-decoration: none;
+}
+
+.navigation .ul-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.header-nav{
+    background-color: black;
+    font-size: 20px;
+}
+.two-tier{
+    background-color: rgb(1,139,139);
+    padding: 1em 0;
+    position: absolute;
+    display:none;
+    border-radius: 8px;
+    top: 35px;
+}
+.nav-links:hover .two-tier{
+    display: block;
+}
+.two-tier li + li{
+    margin-top: 10px;
+}
+.two-tier li:hover{
+    background-color: pink;
+}
+.nav-links{
+    color: yellow;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-links:hover{
+    color: orangered;
+}
+
+#sneaker-history{
+    color: rgb(218, 32, 48);
+    text-align: center;
+    text-shadow: 2px 2px #ffd900;
+    
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .para{
+    text-align: center;
+    color: cyan;
+    padding: 10px 20px;
+  }
+  .para-1{
+    background-color: black;
+    border-radius: 10%;
+    margin-bottom: 50px;
+    margin: 10px 20px;
+    border: 5px solid red;
+  }
+
+.footer-1{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+ .support {
+    font-size: larger;
+    font-weight: bolder;
+    color: darkblue;
+    margin-left: 750px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #ffd900;
+}
+
+.form-table{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(198, 12, 239);
+}
+
+#description {
+   box-sizing: border-box;
+   margin-left: 500px;
+   color: red;
+   font-weight: bolder;
+}
+
+#submit-bttn{
+    height: 40px;
+    width: 80;
+    color: aqua;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#submit-bttn:hover{
+    color: #ffd900;
+}
+
+.heading-description{
+    font-size: large;
+    font-weight: bold;
+    color: brown;
+    width: 1200px;
+    border: 4px solid black;
+    margin-left: 100px;
+    margin-bottom: 18px;
+    padding: 15px 13px;
+    box-shadow: 10px 5px 5px red;
+}
+.head-desc{
+    color: goldenrod;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.price{
+    font-size: 30px;
+    font-weight: bolder;
+    color: blue;
+    margin-left: 200px;
+}
+
+.link{
+    font-size: 30px;
+    font-weight: bolder;
+    color: red;
+    margin-left: 200px;
+    text-decoration: none;
+    
+}
+#final-sup {
+   float: right;
+   color: rgb(251, 4, 45);
+   font-weight: bold;
+}
+
+#managment{
+    font-weight: bold;
+    width: 350px;
+    height: 200px;  
+    padding: 30px;
+    border: 1px solid red;
+}
+
+#feedback{
+    margin-top: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+#share{
+    float: right;
+    margin-top: -200px;
+    margin-right: 20px;
+}
+
+.share-option{
+    text-decoration: none;
+}
